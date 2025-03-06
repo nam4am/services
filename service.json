@@ -1,0 +1,11 @@
+{
+  "services": [
+    {
+      "name": "SwagRecommendations",
+      "label": "This service offers a recommendation app and an upgrade plan",
+      "host": "https://swagrecommendations.staging-apps.shopware.io",
+      "app-endpoint": "/api/service/lifecycle/select-app",
+      "license-sync-endpoint": "/api/service/license/commercial/sync"
+    }
+  ]
+}
